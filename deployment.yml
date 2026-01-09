@@ -5,7 +5,7 @@ metadata:
   # namespace: prod     # name of namespace
 
 spec:
-  replicas: 1       # giving instruction to create 2 replica(pods) of application
+  replicas: 2       # giving instruction to create 2 replica(pods) of application
   selector:
     matchLabels:      # telling deployemtn which pods to manage
       app: todo   # it will manage only pods that have labels
